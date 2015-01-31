@@ -74,7 +74,7 @@ public class FlappyBird {
 		}
 
 		/*Currently increases score with each repaint, not when you pass a pipe. The timing
-		is very close, but if you adjust the speed it can get off. Needs improvement.*/
+		is very close, but if you adjust the speed it can get off.*/
 		private class ScoreCounter implements ActionListener {
 			public void actionPerformed(ActionEvent evt) {
 				score += 1;
